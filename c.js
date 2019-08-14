@@ -15,9 +15,9 @@ function createBalls(num){
 
             this.ys = Math.random()*4-2;
 
-            this.w = 50;
+            this.w = 10;
 
-            this.h = 50;
+            this.h = 10;
 
             this.f = `rgb(${Math.random()*255}, ${Math.random()*255}, ${Math.random()*255})`;
 
@@ -65,7 +65,7 @@ function createBalls(num){
     
     let balls = [];
     for(let i = 0;i<num;i++){
-        balls.push(new Ball((Math.random()*width-100)+50, (Math.random()*height-100)+50 ))
+        balls.push(new Ball((Math.random()*canvas.width-100)+50, (Math.random()*canvas.height-100)+50 ))
     }
     function loop(){
 
