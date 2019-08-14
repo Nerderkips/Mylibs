@@ -1,4 +1,8 @@
 function createBalls(num){
+    let canvas = document.getElementById("canvas");
+    let ctx = canvas.getContext("2d");
+
+    
     class Ball{
 
         constructor(x, y){
@@ -61,7 +65,7 @@ function createBalls(num){
     
     let balls = [];
     for(let i = 0;i<num;i++){
-        balls.push(new Ball((Math.random()*width-100)+50,Math.random()*height-100)+50 ))
+        balls.push(new Ball((Math.random()*width-100)+50, (Math.random()*height-100)+50 ))
     }
     function loop(){
 
