@@ -70,7 +70,7 @@ function createBalls(num){
 
     for(let i = 0;i<num;i++){
 
-        balls.push(new Ball(Math.random()*(canvas.width-100)+50, Math.random()*(canvas.height-100)+50 ))
+        balls.push(new Ball((Math.random()*(canvas.width-100))+50, (Math.random()*(canvas.height-100))+50 ))
 
     }
 
