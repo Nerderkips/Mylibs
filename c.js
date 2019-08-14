@@ -61,7 +61,7 @@ function createBalls(num){
 
        }
 
-    }
+   } 
     
     let balls = [];
     for(let i = 0;i<num;i++){
