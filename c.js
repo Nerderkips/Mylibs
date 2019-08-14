@@ -57,7 +57,7 @@ function createBalls(num){
 
                 this.ys *= -1;
 
-            }
+           }
 
        }
 
