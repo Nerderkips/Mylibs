@@ -1,4 +1,6 @@
 function print(content){
-  let p document.querySelector("body").appendChild("<p></p>");
+  let a = document.createElement("<p>");
+
+  let p document.querySelector("body").appendChild(a);
   p.html = content;
 } 
