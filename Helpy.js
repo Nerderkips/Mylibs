@@ -64,17 +64,3 @@ class Helpy{
 
 }
 
-let alex = new Helpy();
-
-alex.war("x", "hello");
-
-window.onload=()=>{
-
-    //alex.print(x);
-
-    //alex.klikk("id", alert("hi"));
-
-    alex.text("hi", "test");
-
-}
-
